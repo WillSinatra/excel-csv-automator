@@ -207,7 +207,7 @@ See [`demo_commands.txt`](excel_csv_automator/demo_commands.txt) for the full co
 
 ## 📄 License
 
-Copyright © 2025 Santiago Sánchez.  
+Copyright © 2026 Santiago Sánchez.  
 Portfolio and demonstration use only. See [LICENSE](excel_csv_automator/LICENSE) for full terms.
 
 ---
