@@ -1,0 +1,14 @@
+Place your demo screenshots here.
+
+Suggested screenshots to capture:
+─────────────────────────────────
+1. clean_command.png     — Terminal output after running `python main.py clean ...`
+2. report_sheets.png     — Excel report showing all 3 sheets (Data / Summary / Null Analysis)
+3. convert_json.png      — JSON output snippet after format conversion
+4. combine_output.png    — Combined CSV file with source_file column visible
+
+Tips:
+- Use a dark terminal theme for cleaner-looking screenshots
+- Crop tightly to the relevant area
+- Use 1280×800 or higher resolution
+- Include these in the README Screenshots section

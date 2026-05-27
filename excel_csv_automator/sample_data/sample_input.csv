@@ -1,0 +1,23 @@
+id,name,email,age,department,salary,join_date,status
+1,  John Smith  ,john.smith@company.com,28,Engineering,75000,2021-03-15,Active
+2,Maria Garcia,maria.garcia@company.com,34,Marketing,62000,2020-07-22,active
+3,DAVID LEE,david.lee@company.com,45,Engineering,95000,2019-01-10,Active
+4,  Sarah Johnson  ,sarah.j@company.com,29,HR,58000,2022-05-30,ACTIVE
+5,Carlos Mendez,carlos.mendez@company.com,38,Sales,71000,2021-11-08,Active
+6,Emily Chen,emily.chen@company.com,26,,55000,2023-02-14,Active
+7,Robert Taylor,r.taylor@company.com,52,Engineering,110000,2017-09-20,Inactive
+8,  Ana Flores  ,ana.flores@company.com,31,Marketing,67000,2020-12-01,Active
+9,Michael Brown,m.brown@company.com,41,Finance,88000,2018-06-15,Active
+10,Lisa Wang,lisa.wang@company.com,,HR,60000,2022-08-10,Active
+11,  John Smith  ,john.smith@company.com,28,Engineering,75000,2021-03-15,Active
+12,James Wilson,j.wilson@company.com,36,Sales,73000,2020-03-25,active
+13,Patricia Davis,patricia.d@company.com,48,Finance,92000,2016-11-30,Active
+14,Kevin Martinez,kevin.m@company.com,27,Engineering,69000,2023-04-12,Active
+15,Nancy Thompson,nancy.t@company.com,39,,64000,,Active
+16,  Carlos Mendez  ,carlos.mendez@company.com,38,Sales,71000,2021-11-08,Active
+17,Sandra White,sandra.w@company.com,44,HR,61000,2019-07-08,INACTIVE
+18,Daniel Harris,d.harris@company.com,33,Engineering,82000,2020-10-17,Active
+19,Jennifer Clark,jennifer.c@company.com,,,55000,2023-01-25,
+20,Thomas Lewis,thomas.l@company.com,50,Finance,98000,2015-04-30,Active
+21,Rachel Young,rachel.y@company.com,29,Marketing,63000,,Active
+22,  Emily Chen  ,emily.chen@company.com,26,,55000,2023-02-14,Active

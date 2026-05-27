@@ -1,0 +1,60 @@
+╔══════════════════════════════════════════════════════════╗
+║         Excel CSV Automator — Demo Commands              ║
+╚══════════════════════════════════════════════════════════╝
+
+── SETUP ─────────────────────────────────────────────────
+# 1. Create and activate a virtual environment
+python -m venv .venv
+.venv\Scripts\activate          # Windows
+source .venv/bin/activate        # macOS / Linux
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+── CLEAN ─────────────────────────────────────────────────
+# Clean the sample CSV (removes duplicates, fixes nulls, normalizes columns)
+python main.py clean --input sample_data/sample_input.csv
+
+# Clean a custom XLSX file
+python main.py clean --input path/to/your_file.xlsx
+
+── COMBINE ───────────────────────────────────────────────
+# Combine two files (creates output/combined_output.csv)
+python main.py combine --inputs sample_data/sample_input.csv output/cleaned_sample_input.csv
+
+# Combine three files of mixed formats
+python main.py combine --inputs file1.csv file2.xlsx file3.csv
+
+── CONVERT ───────────────────────────────────────────────
+# CSV → JSON
+python main.py convert --input sample_data/sample_input.csv --format json
+
+# CSV → Excel
+python main.py convert --input sample_data/sample_input.csv --format excel
+
+# Excel → CSV
+python main.py convert --input output/cleaned_sample_input.xlsx --format csv
+
+── REPORT ────────────────────────────────────────────────
+# Generate a professional Excel report with 3 analysis sheets
+python main.py report --input sample_data/sample_input.csv
+
+# Report from cleaned output
+python main.py report --input output/cleaned_sample_input.csv
+
+── HELP ──────────────────────────────────────────────────
+python main.py --help
+python main.py clean   --help
+python main.py combine --help
+python main.py convert --help
+python main.py report  --help
+
+── FULL DEMO WORKFLOW ────────────────────────────────────
+# Step 1 — Clean raw data
+python main.py clean --input sample_data/sample_input.csv
+
+# Step 2 — Convert cleaned data to JSON
+python main.py convert --input output/cleaned_sample_input.csv --format json
+
+# Step 3 — Generate a full analysis report
+python main.py report --input output/cleaned_sample_input.csv
